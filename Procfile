@@ -1,1 +1,1 @@
-web: gunicorn index:app --worker-class gevent
+web: python index.py
